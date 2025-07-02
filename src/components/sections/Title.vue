@@ -4,7 +4,7 @@ import { ElIcon } from 'element-plus'
 import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@element-plus/icons-vue'
 
 // logo地址，没有则置为""即可
-const logo = './logo.png'
+const logo = './icon/DUT.jpg'
 
 // 标题
 const title = 'Asoul'
@@ -13,7 +13,7 @@ const title = 'Asoul'
 const title_color = '#000000'
 
 // 标题补充，没有则置为''即可
-const title_supp = ' : Masked Attention-Guided Diffusion Inpainting for Precise Style Transfer'
+const title_supp = ': Masked Attention-Guided Diffusion Inpainting for Precise Style Transfer'
 
 // 标题补充颜色
 const title_supp_color = '#42B883'
@@ -48,7 +48,7 @@ const addresses = [
   {
     address_flag: "1",
     name: "Dalian University of Technology",
-    icon: "./icon/home.png",
+    icon: "./icon/DUT.jpg",
     homepage: "https://www.dlut.edu.cn/"
   },
   {
@@ -68,9 +68,8 @@ const news = "🔥 [2024-12-15] This template project is still under development
 
 // 强调内容
 const emphases = [
-  "🎉 [ABCD 2024] Poster",
-  "🥰 欢迎关注“减论”微信公众号/B站/知乎/小红书",
-  "传递人工智能算法科普教育的减约理解",
+  "🎉 [SigGraph 2026] Poster",
+  "🥰 欢迎关注“A-soul”微信公众号/B站/知乎/小红书",
   "提升信息效率及认知维度"
 ]
 
@@ -110,7 +109,7 @@ const buttons = [
   },
   {
     disabled: false,
-    name: "Video (减论)",
+    name: "Video ",
     link: "https://www.bilibili.com/video/BV15XkgYiE73/",
     component: Film,
   },

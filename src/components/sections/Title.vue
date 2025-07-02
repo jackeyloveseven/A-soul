@@ -7,13 +7,13 @@ import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@eleme
 const logo = './logo.png'
 
 // 标题
-const title = 'Academic Project Page Template'
+const title = 'Asoul'
 
 // 标题颜色
 const title_color = '#000000'
 
 // 标题补充，没有则置为''即可
-const title_supp = ' (Vue based)'
+const title_supp = ' : Masked Attention-Guided Diffusion Inpainting for Precise Style Transfer'
 
 // 标题补充颜色
 const title_supp_color = '#42B883'
@@ -24,19 +24,19 @@ const btn_color = '#444444'
 // 作者清单（包含作者姓名、头像、主页、地址序号）
 const authors = [
   {
-    name: "Your Name",
-    icon: "./icon/junyaohu.jpg",
+    name: "Chengyan Li",
+    icon: "./icon/Chengyan Li.jpg",
     homepage: "https://junyaohu.github.io/",
     address_flag: "1,#"
   },
   {
-    name: "Anya Forger",
+    name: "Yi Li",
     icon: "./icon/anya.jpg",
     homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
     address_flag: "2,#"
   },
   {
-    name: "BugCat Capoo",
+    name: "Junchuan Zhang",
     icon: "./icon/capoo.webp",
     homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
     address_flag: "1,*"
@@ -47,13 +47,13 @@ const authors = [
 const addresses = [
   {
     address_flag: "1",
-    name: "Home University",
+    name: "Dalian University of Technology",
     icon: "./icon/home.png",
-    homepage: "https://github.com/hmuniversity"
+    homepage: "https://www.dlut.edu.cn/"
   },
   {
     address_flag: "2",
-    name: "IKUN University",
+    name: "Dalian Marinetime University",
     icon: "./icon/ikun.avif",
     homepage: "https://www.bilibili.com/video/BV178411Y7QB"
   },
